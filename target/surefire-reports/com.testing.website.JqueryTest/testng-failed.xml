@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.testing.website.JqueryTest]">
+  <test thread-count="5" verbose="0" name="Command line test(failed)">
+    <classes>
+      <class name="com.testing.website.JqueryTest">
+        <methods>
+          <include name="Menu"/>
+          <include name="openWebdriver"/>
+          <include name="openWebsite"/>
+          <include name="autocomplete"/>
+          <include name="closing"/>
+          <include name="sorting"/>
+        </methods>
+      </class> <!-- com.testing.website.JqueryTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [com.testing.website.JqueryTest] -->

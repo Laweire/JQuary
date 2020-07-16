@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="19" passed="16">
+  <reporter-output>
+  </reporter-output>
+  <suite name="com.testing.website.JqueryTest" duration-ms="48946" started-at="2020-04-24T04:24:50Z" finished-at="2020-04-24T04:25:39Z">
+    <groups>
+      <group name="Widgets">
+        <method signature="JqueryTest.Button()[pri:15, instance:com.testing.website.JqueryTest@3cda1055]" name="Button" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.ClickRadio()[pri:8, instance:com.testing.website.JqueryTest@3cda1055]" name="ClickRadio" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.Controlgroup()[pri:9, instance:com.testing.website.JqueryTest@3cda1055]" name="Controlgroup" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.Tabs()[pri:19, instance:com.testing.website.JqueryTest@3cda1055]" name="Tabs" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.Tooltip()[pri:18, instance:com.testing.website.JqueryTest@3cda1055]" name="Tooltip" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.accordin()[pri:6, instance:com.testing.website.JqueryTest@3cda1055]" name="accordin" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.autocomplete()[pri:7, instance:com.testing.website.JqueryTest@3cda1055]" name="autocomplete" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.datetyper()[pri:10, instance:com.testing.website.JqueryTest@3cda1055]" name="datetyper" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.dialog()[pri:16, instance:com.testing.website.JqueryTest@3cda1055]" name="dialog" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.progressbar()[pri:11, instance:com.testing.website.JqueryTest@3cda1055]" name="progressbar" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.selectmenu()[pri:20, instance:com.testing.website.JqueryTest@3cda1055]" name="selectmenu" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.slider()[pri:12, instance:com.testing.website.JqueryTest@3cda1055]" name="slider" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.spinner()[pri:13, instance:com.testing.website.JqueryTest@3cda1055]" name="spinner" class="com.testing.website.JqueryTest"/>
+      </group> <!-- Widgets -->
+      <group name="menu">
+        <method signature="JqueryTest.Menu()[pri:17, instance:com.testing.website.JqueryTest@3cda1055]" name="Menu" class="com.testing.website.JqueryTest"/>
+      </group> <!-- menu -->
+      <group name="interactions">
+        <method signature="JqueryTest.resizable()[pri:3, instance:com.testing.website.JqueryTest@3cda1055]" name="resizable" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.select()[pri:4, instance:com.testing.website.JqueryTest@3cda1055]" name="select" class="com.testing.website.JqueryTest"/>
+        <method signature="JqueryTest.sorting()[pri:5, instance:com.testing.website.JqueryTest@3cda1055]" name="sorting" class="com.testing.website.JqueryTest"/>
+      </group> <!-- interactions -->
+    </groups>
+    <test name="Command line test" duration-ms="48946" started-at="2020-04-24T04:24:50Z" finished-at="2020-04-24T04:25:39Z">
+      <class name="com.testing.website.JqueryTest">
+        <test-method status="PASS" signature="openWebdriver()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebdriver" is-config="true" duration-ms="6211" started-at="2020-04-24T04:24:50Z" finished-at="2020-04-24T04:24:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebdriver -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="1146" started-at="2020-04-24T04:24:57Z" finished-at="2020-04-24T04:24:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="draggable()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="draggable" duration-ms="4129" started-at="2020-04-24T04:24:58Z" finished-at="2020-04-24T04:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- draggable -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="220" started-at="2020-04-24T04:25:02Z" finished-at="2020-04-24T04:25:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="droppable()[pri:1, instance:com.testing.website.JqueryTest@3cda1055]" name="droppable" duration-ms="646" started-at="2020-04-24T04:25:02Z" finished-at="2020-04-24T04:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- droppable -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="218" started-at="2020-04-24T04:25:03Z" finished-at="2020-04-24T04:25:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="resizable()[pri:3, instance:com.testing.website.JqueryTest@3cda1055]" name="resizable" duration-ms="2973" started-at="2020-04-24T04:25:03Z" finished-at="2020-04-24T04:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- resizable -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="223" started-at="2020-04-24T04:25:06Z" finished-at="2020-04-24T04:25:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="select()[pri:4, instance:com.testing.website.JqueryTest@3cda1055]" name="select" duration-ms="3054" started-at="2020-04-24T04:25:06Z" finished-at="2020-04-24T04:25:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- select -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="263" started-at="2020-04-24T04:25:09Z" finished-at="2020-04-24T04:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="FAIL" signature="sorting()[pri:5, instance:com.testing.website.JqueryTest@3cda1055]" name="sorting" duration-ms="592" started-at="2020-04-24T04:25:10Z" finished-at="2020-04-24T04:25:10Z">
+          <exception class="org.openqa.selenium.interactions.MoveTargetOutOfBoundsException">
+            <message>
+              <![CDATA[move target out of bounds
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FEM2N9O3', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\nawar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b3de4e48dcfaf365b924a1bd8d2ebd5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: move target out of bounds
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FEM2N9O3', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\nawar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b3de4e48dcfaf365b924a1bd8d2ebd5
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at com.testing.website.JqueryTest.sorting(JqueryTest.java:137)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.interactions.MoveTargetOutOfBoundsException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sorting -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="138" started-at="2020-04-24T04:25:10Z" finished-at="2020-04-24T04:25:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="accordin()[pri:6, instance:com.testing.website.JqueryTest@3cda1055]" name="accordin" duration-ms="1086" started-at="2020-04-24T04:25:10Z" finished-at="2020-04-24T04:25:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accordin -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="184" started-at="2020-04-24T04:25:11Z" finished-at="2020-04-24T04:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="FAIL" signature="autocomplete()[pri:7, instance:com.testing.website.JqueryTest@3cda1055]" name="autocomplete" duration-ms="360" started-at="2020-04-24T04:25:12Z" finished-at="2020-04-24T04:25:12Z">
+          <exception class="org.openqa.selenium.support.ui.UnexpectedTagNameException">
+            <message>
+              <![CDATA[Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FEM2N9O3', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.support.ui.UnexpectedTagNameException: Element should have been "select" but was "input"
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FEM2N9O3', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: driver.version: unknown
+at org.openqa.selenium.support.ui.Select.<init>(Select.java:48)
+at com.testing.website.JqueryTest.autocomplete(JqueryTest.java:178)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.support.ui.UnexpectedTagNameException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- autocomplete -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="183" started-at="2020-04-24T04:25:12Z" finished-at="2020-04-24T04:25:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="ClickRadio()[pri:8, instance:com.testing.website.JqueryTest@3cda1055]" name="ClickRadio" duration-ms="3490" started-at="2020-04-24T04:25:12Z" finished-at="2020-04-24T04:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickRadio -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="205" started-at="2020-04-24T04:25:16Z" finished-at="2020-04-24T04:25:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="Controlgroup()[pri:9, instance:com.testing.website.JqueryTest@3cda1055]" name="Controlgroup" duration-ms="5660" started-at="2020-04-24T04:25:16Z" finished-at="2020-04-24T04:25:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Controlgroup -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="184" started-at="2020-04-24T04:25:21Z" finished-at="2020-04-24T04:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="datetyper()[pri:10, instance:com.testing.website.JqueryTest@3cda1055]" name="datetyper" duration-ms="420" started-at="2020-04-24T04:25:22Z" finished-at="2020-04-24T04:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- datetyper -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="212" started-at="2020-04-24T04:25:22Z" finished-at="2020-04-24T04:25:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="progressbar()[pri:11, instance:com.testing.website.JqueryTest@3cda1055]" name="progressbar" duration-ms="345" started-at="2020-04-24T04:25:22Z" finished-at="2020-04-24T04:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- progressbar -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="153" started-at="2020-04-24T04:25:23Z" finished-at="2020-04-24T04:25:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="slider()[pri:12, instance:com.testing.website.JqueryTest@3cda1055]" name="slider" duration-ms="2480" started-at="2020-04-24T04:25:23Z" finished-at="2020-04-24T04:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- slider -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="205" started-at="2020-04-24T04:25:25Z" finished-at="2020-04-24T04:25:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="spinner()[pri:13, instance:com.testing.website.JqueryTest@3cda1055]" name="spinner" duration-ms="1807" started-at="2020-04-24T04:25:25Z" finished-at="2020-04-24T04:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- spinner -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="222" started-at="2020-04-24T04:25:27Z" finished-at="2020-04-24T04:25:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="Button()[pri:15, instance:com.testing.website.JqueryTest@3cda1055]" name="Button" duration-ms="2577" started-at="2020-04-24T04:25:27Z" finished-at="2020-04-24T04:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Button -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="209" started-at="2020-04-24T04:25:30Z" finished-at="2020-04-24T04:25:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="dialog()[pri:16, instance:com.testing.website.JqueryTest@3cda1055]" name="dialog" duration-ms="2397" started-at="2020-04-24T04:25:30Z" finished-at="2020-04-24T04:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dialog -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="186" started-at="2020-04-24T04:25:33Z" finished-at="2020-04-24T04:25:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="FAIL" signature="Menu()[pri:17, instance:com.testing.website.JqueryTest@3cda1055]" name="Menu" duration-ms="947" started-at="2020-04-24T04:25:33Z" finished-at="2020-04-24T04:25:34Z">
+          <exception class="org.openqa.selenium.JavascriptException">
+            <message>
+              <![CDATA[javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FEM2N9O3', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\nawar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b3de4e48dcfaf365b924a1bd8d2ebd5]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.JavascriptException: javascript error: Failed to execute 'elementsFromPoint' on 'Document': The provided double value is non-finite.
+  (Session info: chrome=81.0.4044.122)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-FEM2N9O3', ip: '192.168.0.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_191'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 81.0.4044.122, chrome: {chromedriverVersion: 81.0.4044.69 (6813546031a4b..., userDataDir: C:\Users\nawar\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:50965}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 2b3de4e48dcfaf365b924a1bd8d2ebd5
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.perform(RemoteWebDriver.java:618)
+at org.openqa.selenium.interactions.Actions$BuiltAction.perform(Actions.java:639)
+at com.testing.website.JqueryTest.Menu(JqueryTest.java:385)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:77)
+at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:110)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:106)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.JavascriptException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Menu -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="164" started-at="2020-04-24T04:25:34Z" finished-at="2020-04-24T04:25:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="Tooltip()[pri:18, instance:com.testing.website.JqueryTest@3cda1055]" name="Tooltip" duration-ms="3641" started-at="2020-04-24T04:25:34Z" finished-at="2020-04-24T04:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tooltip -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="178" started-at="2020-04-24T04:25:38Z" finished-at="2020-04-24T04:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="Tabs()[pri:19, instance:com.testing.website.JqueryTest@3cda1055]" name="Tabs" duration-ms="539" started-at="2020-04-24T04:25:38Z" finished-at="2020-04-24T04:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Tabs -->
+        <test-method status="PASS" signature="openWebsite()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="openWebsite" is-config="true" duration-ms="158" started-at="2020-04-24T04:25:38Z" finished-at="2020-04-24T04:25:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openWebsite -->
+        <test-method status="PASS" signature="selectmenu()[pri:20, instance:com.testing.website.JqueryTest@3cda1055]" name="selectmenu" duration-ms="855" started-at="2020-04-24T04:25:38Z" finished-at="2020-04-24T04:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectmenu -->
+        <test-method status="PASS" signature="closing()[pri:0, instance:com.testing.website.JqueryTest@3cda1055]" name="closing" is-config="true" duration-ms="55" started-at="2020-04-24T04:25:39Z" finished-at="2020-04-24T04:25:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closing -->
+      </class> <!-- com.testing.website.JqueryTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- com.testing.website.JqueryTest -->
+</testng-results>
